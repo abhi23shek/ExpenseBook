@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom:1px solid #CBD5E1;
+}
+.navbar__logo{
+  font-size: 1.2em;
+  background: linear-gradient(90.12deg, #2D56EC 15.22%, #1AACEA 100.74%), #134FCC;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; 
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  height: 20px; /* Adjust as per your logo */
+  margin-right: 5px;
+}
+
+.logo-text1 {
+  font-weight: normal;
+}
+
+.logo-text2 {
+  font-weight: bold;
+}
+
+ .navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+} 
+
+
+.navbar-right a:hover {
+  color: #0b74e5;
+}
+
+
+.start-trial-btn {
+  background: linear-gradient(90.12deg, #2D56EC 15.22%, #1AACEA 100.74%), #134FCC;
+  /* background-color: #0b74e5; */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-trial-btn:hover {
+  background-color: #095bbd;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+}

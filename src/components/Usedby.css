@@ -1,0 +1,44 @@
+.usedby-container {
+  margin: auto;
+  width: 1126px;
+  height: 176px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  border: 1px solid #CBD5E1;
+}
+
+.row{
+  padding-left: 30px;
+  margin: auto;
+}
+
+.enterprise {
+  width: 351px;
+  height: 20px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.usedby-text {
+  
+  font-family: 'inter';
+  font-size: 16px;
+  font-weight: 500;
+  color: #94A3B8;
+  text-align: center;
+  line-height: 20.48px;
+  letter-spacing: 3.5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.usedby-logo {
+  width: 108px;
+  height: 48px;
+}
+
+@media (min-width: 768px) {
+  .usedby-logo {
+    max-width: 80%;
+  }
+}

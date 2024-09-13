@@ -1,0 +1,125 @@
+/* Container styling */
+.integrations-container {
+  margin: auto;
+  width: 1475px;
+  background-color: #E3F0F9;
+  padding: 40px 0;
+}
+
+.main-container {
+  max-width: 1300px;
+
+  margin: auto;
+}
+
+.vector {
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.vector img {
+  width: 65%;
+}
+
+.integrations-heading {
+  height: 45px;
+  font-size: 40px;
+  /* margin-bottom: -20px; */
+  font-weight: 600;
+}
+
+.integrations-heading-text {
+  background: linear-gradient(90.12deg, #2D56EC 15.22%, #1AACEA 100.74%), #134FCC;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* font-family: Extatica; */
+font-size: 40px;
+font-weight: 600;
+line-height: 51.2px;
+/* text-align: left;  */
+}
+
+/* Card styling */
+.integration-card {
+  width: 390px;
+  height: 250px;
+  border-radius: 12px;
+  background-color: white;
+  text-align: left;
+}
+
+.integration-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* General text for descriptions */
+.integration-text {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+/* Custom styling for each type of card */
+.hrms-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 239, 227, 1));
+  border: 3px solid rgba(255, 200, 150, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  
+}
+
+.hrms-card p {
+  font-size: 1rem;
+  color: #5b647a;
+  line-height: 1.6;
+}
+
+.finance-card {
+  background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.9), #f4f9e7);
+    border: 3px solid rgba(133, 180, 66, 0.5);
+    border-radius: 12px;
+    padding: 20px; 
+}
+
+.finance-card p {
+  font-size: 1rem;
+  color: #5b647a;
+  line-height: 1.6;
+}
+
+.sso-card {
+    background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.8), #e8f0ff); 
+    border: 3px solid rgba(72, 112, 212, 0.2); 
+    border-radius: 12px; 
+    padding: 20px;
+}
+
+.sso-card p {
+  font-size: 1rem;
+  color: #5b647a;
+  line-height: 1.6;
+}
+/* Icons styling */
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.hrms-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.finance-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sso-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+

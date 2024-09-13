@@ -1,0 +1,139 @@
+.hero-container {
+  padding: 60px 0;
+  /* background-color: #f8f9fa; */
+}
+
+
+.world-most {
+  
+width: 411px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 128%;
+/* identical to box height, or 36px */
+text-align: center;
+
+background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%), #64748B;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+}
+
+.prim{
+  padding-bottom: 20px;
+}
+
+.pri_heading {
+  /* Travel & Expense Management Software */
+
+width: 975px;
+height: 72px;
+
+font-family: 'Extatica';
+
+font-weight: 550;
+font-size: 56px;
+text-align: center;
+padding-bottom: 20px;
+color: #334155;
+} 
+
+
+.div-muted {
+  width: 820px;
+  height: 78px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.text-muted {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 128%;
+  color: #64748B;
+}
+
+.form-container{
+  margin: auto;
+  max-width: 689px;
+
+  
+}
+
+
+input[type="text"], input[type="email"], textarea {
+
+  background-color : #F1F5F9; 
+  border: #CBD5E1 1px solid;
+  border-radius: 5px;
+
+}
+
+.form-control1 {
+  
+  width: 200px;
+  height: 44px;
+}
+
+.form-control2 {
+  
+  width: 352px;
+  height: 44px;
+}
+
+
+.btn-start {
+  background: linear-gradient(90.12deg, #2D56EC 15.22%, #1AACEA 100.74%), #134FCC;
+  background-color: #0b74e5;
+  
+  border: none;
+  margin-left: 15px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  font-style: bold;
+}
+
+.start-trial-text {
+  font-weight: 500;
+  color: #f8f9fa;
+}
+/* 
+.btn {
+  padding: 10px 30px;
+} */
+
+.trial-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c757d;
+  width: 265px;
+  height: 20px;
+  margin: auto;
+}
+
+.enote1 {
+  margin-right: 12px;
+  
+}
+.enote2 {
+  margin-left: 12px;
+}
+
+.ellipse5 {
+  color: #6c757d;
+  width: 6px;
+  height: 6px;
+}
+

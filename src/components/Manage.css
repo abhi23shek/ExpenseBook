@@ -1,0 +1,30 @@
+.manage-container{
+  margin: auto;
+  width: 1475px;
+  background-color: #E3F0F9;
+  padding: 40px 0;
+}
+
+
+.manage-main-container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.manage-heading{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+.manage-heading-text{
+  background: linear-gradient(90.12deg, #2D56EC 15.22%, #1AACEA 100.74%), #134FCC;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51.2px;
+}
